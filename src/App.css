@@ -2,15 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background: rgba(0, 0, 0, 0.7) url("img/galaxy.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: darken;
+  color: azure;
 }
 
 .App-header {
